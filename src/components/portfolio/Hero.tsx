@@ -23,7 +23,7 @@ const Hero = () => (
         transition={{ duration: 0.7, delay: 0.15 }}
         className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-primary"
       >
-        Patricia{" "}
+        <span className="text-foreground">Patricia</span>{" "}
         <span className="text-gradient-emerald">Paniagua</span>{" "}
         <span className="block text-3xl md:text-5xl font-normal mt-2 text-primary/70">López</span>
       </motion.h1>
