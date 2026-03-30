@@ -9,6 +9,12 @@ const items = [
     tasks: ["Análisis de normativa internacional", "Redacción de informes jurídicos", "Apoyo en investigación legal"],
   },
   {
+    period: "2023",
+    role: "Prácticas en el Juzgado de Toledo",
+    company: "Juzgado de Toledo",
+    tasks: ["Asistencia en procedimientos judiciales", "Estudio de expedientes y resoluciones", "Apoyo en la tramitación de causas"],
+  },
+  {
     period: "2022 – 2023",
     role: "Voluntariado en ONG",
     company: "Organización sin ánimo de lucro",
