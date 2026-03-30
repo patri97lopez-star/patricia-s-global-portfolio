@@ -21,11 +21,11 @@ const Hero = () => (
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.15 }}
-        className="text-5xl md:text-7xl font-bold leading-tight mb-6"
+        className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-primary"
       >
         Patricia{" "}
         <span className="text-gradient-emerald">Paniagua</span>{" "}
-        <span className="block text-3xl md:text-5xl font-normal mt-2 text-muted-foreground">López</span>
+        <span className="block text-3xl md:text-5xl font-normal mt-2 text-primary/70">López</span>
       </motion.h1>
 
       <motion.p
