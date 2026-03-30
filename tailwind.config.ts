@@ -19,13 +19,15 @@ export default {
       extend: {
       colors: {
         emerald: {
-          glow: "hsl(var(--emerald-glow))",
+          glow: "hsl(var(--olive-glow))",
         },
-        navy: {
-          deep: "hsl(var(--navy-deep))",
-          light: "hsl(var(--navy-light))",
+        cream: {
+          deep: "hsl(var(--cream-deep))",
+          light: "hsl(var(--cream-light))",
         },
-        gold: "hsl(var(--gold))",
+        olive: {
+          dark: "hsl(var(--olive-dark))",
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

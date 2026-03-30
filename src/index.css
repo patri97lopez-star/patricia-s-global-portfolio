@@ -6,47 +6,47 @@
 
 @layer base {
   :root {
-    --background: 216 40% 6%;
-    --foreground: 210 20% 92%;
+    --background: 40 30% 95%;
+    --foreground: 90 15% 15%;
 
-    --card: 216 35% 10%;
-    --card-foreground: 210 20% 92%;
+    --card: 40 25% 91%;
+    --card-foreground: 90 15% 15%;
 
-    --popover: 216 35% 10%;
-    --popover-foreground: 210 20% 92%;
+    --popover: 40 25% 91%;
+    --popover-foreground: 90 15% 15%;
 
-    --primary: 160 60% 45%;
-    --primary-foreground: 216 40% 6%;
+    --primary: 90 35% 35%;
+    --primary-foreground: 40 30% 96%;
 
-    --secondary: 216 30% 16%;
-    --secondary-foreground: 210 20% 85%;
+    --secondary: 40 20% 87%;
+    --secondary-foreground: 90 15% 20%;
 
-    --muted: 216 25% 14%;
-    --muted-foreground: 215 15% 55%;
+    --muted: 40 18% 88%;
+    --muted-foreground: 90 8% 45%;
 
-    --accent: 160 60% 45%;
-    --accent-foreground: 216 40% 6%;
+    --accent: 90 35% 35%;
+    --accent-foreground: 40 30% 96%;
 
     --destructive: 0 84% 60%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 40 30% 96%;
 
-    --border: 216 25% 18%;
-    --input: 216 25% 18%;
-    --ring: 160 60% 45%;
+    --border: 40 15% 82%;
+    --input: 40 15% 82%;
+    --ring: 90 35% 35%;
 
     --radius: 0.75rem;
 
-    --emerald-glow: 160 70% 50%;
-    --navy-deep: 216 50% 4%;
-    --navy-light: 216 30% 22%;
-    --gold: 42 80% 60%;
+    --olive-glow: 90 40% 40%;
+    --cream-deep: 40 35% 92%;
+    --cream-light: 40 20% 85%;
+    --olive-dark: 90 30% 25%;
 
     --font-display: 'Playfair Display', serif;
     --font-body: 'DM Sans', sans-serif;
 
-    --gradient-hero: linear-gradient(135deg, hsl(216 40% 6%) 0%, hsl(216 35% 12%) 50%, hsl(200 30% 10%) 100%);
-    --gradient-emerald: linear-gradient(135deg, hsl(160 60% 45%), hsl(160 70% 35%));
-    --shadow-emerald: 0 0 40px -10px hsl(160 60% 45% / 0.3);
+    --gradient-hero: linear-gradient(135deg, hsl(40 30% 95%) 0%, hsl(40 25% 90%) 50%, hsl(45 20% 88%) 100%);
+    --gradient-olive: linear-gradient(135deg, hsl(90 35% 35%), hsl(90 30% 28%));
+    --shadow-olive: 0 0 40px -10px hsl(90 35% 35% / 0.25);
   }
 }
 
@@ -68,7 +68,7 @@
 @layer utilities {
   .text-gradient-emerald {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(160 60% 45%), hsl(160 70% 60%));
+    background-image: linear-gradient(135deg, hsl(90 35% 35%), hsl(90 40% 45%));
   }
 
   .bg-hero-gradient {
@@ -76,10 +76,10 @@
   }
 
   .shadow-emerald {
-    box-shadow: var(--shadow-emerald);
+    box-shadow: var(--shadow-olive);
   }
 
   .border-glow {
-    border-color: hsl(160 60% 45% / 0.3);
+    border-color: hsl(90 35% 35% / 0.35);
   }
 }
