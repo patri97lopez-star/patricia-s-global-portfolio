@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
-import { Scale, Globe, BookOpen } from "lucide-react";
+import { Scale, Globe, BookOpen, Brain } from "lucide-react";
 
 const highlights = [
-  { icon: Scale, title: "Derecho", desc: "Formación jurídica sólida con enfoque en derecho internacional y derechos humanos." },
-  { icon: Globe, title: "Estudios Internacionales", desc: "Visión global de las relaciones políticas, económicas y sociales." },
-  { icon: BookOpen, title: "4 Idiomas", desc: "Español, inglés, italiano y chino — comunicación sin fronteras." },
+  { icon: Scale, title: "Derecho", desc: "Doble grado en Derecho y Estudios Internacionales por la UCLM con muy buenas calificaciones." },
+  { icon: Globe, title: "Perfil Internacional", desc: "Nivel C1 de inglés (Cambridge), italiano y chino en curso. Capacidad para trabajar en entornos bilingües." },
+  { icon: Brain, title: "IA y Marketing", desc: "Grado Superior en Inteligencia Artificial y Marketing por Fedeto y Universidad de Nebrija." },
+  { icon: BookOpen, title: "Investigación", desc: "Experiencia en elaboración de informes técnicos y documentación jurídica." },
 ];
 
 const About = () => (
@@ -28,16 +29,17 @@ const About = () => (
           className="space-y-5 text-muted-foreground leading-relaxed"
         >
           <p>
-            Soy <strong className="text-foreground">Patricia Paniagua López</strong>, una persona curiosa,
-            comprometida y con un gran interés por entender el mundo desde múltiples perspectivas.
+            Soy <strong className="text-foreground">Patricia Paniagua López</strong>, una profesional altamente
+            comprometida y adaptable, con sólidas habilidades de trabajo en equipo, comunicación y resolución de problemas.
           </p>
           <p>
-            Actualmente curso el doble grado en <strong className="text-foreground">Derecho y Estudios Internacionales</strong>,
-            lo que me permite combinar el rigor del análisis jurídico con una visión amplia de las dinámicas globales.
+            Cursé el doble grado en <strong className="text-foreground">Derecho y Estudios Internacionales</strong> en
+            la Universidad de Castilla-La Mancha, con muy buenas calificaciones. Además, estoy formándome en{" "}
+            <strong className="text-foreground">Inteligencia Artificial y Marketing</strong>.
           </p>
           <p>
-            Domino cuatro idiomas — español, inglés, italiano y chino — lo que me abre puertas a culturas,
-            mercados y oportunidades profesionales en todo el mundo.
+            Asumo rápidamente nuevas responsabilidades, entrego resultados de calidad bajo presión y tengo muchas ganas
+            de aportar mi energía y dedicación a cada proyecto, añadiendo valor desde el primer día.
           </p>
         </motion.div>
 

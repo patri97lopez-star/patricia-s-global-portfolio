@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Linkedin, MapPin } from "lucide-react";
+import { Mail, Linkedin, MapPin, Phone } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" className="py-24 px-6">
@@ -22,14 +22,21 @@ const Contact = () => (
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ delay: 0.2 }}
-        className="flex flex-col sm:flex-row gap-6 justify-center"
+        className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center"
       >
         <a
-          href="mailto:patricia.paniagua@email.com"
+          href="mailto:patri97lopez@gmail.com"
           className="flex items-center gap-3 px-6 py-4 rounded-xl bg-card border border-border hover:border-glow transition-colors"
         >
           <Mail size={20} className="text-primary" />
-          <span className="text-sm text-foreground">patricia.paniagua@email.com</span>
+          <span className="text-sm text-foreground">patri97lopez@gmail.com</span>
+        </a>
+        <a
+          href="tel:+34629906810"
+          className="flex items-center gap-3 px-6 py-4 rounded-xl bg-card border border-border hover:border-glow transition-colors"
+        >
+          <Phone size={20} className="text-primary" />
+          <span className="text-sm text-foreground">629 906 810</span>
         </a>
         <a
           href="https://linkedin.com"
@@ -42,7 +49,7 @@ const Contact = () => (
         </a>
         <div className="flex items-center gap-3 px-6 py-4 rounded-xl bg-card border border-border">
           <MapPin size={20} className="text-primary" />
-          <span className="text-sm text-foreground">España</span>
+          <span className="text-sm text-foreground">Polán, Toledo</span>
         </div>
       </motion.div>
     </div>

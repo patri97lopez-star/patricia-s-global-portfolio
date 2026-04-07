@@ -3,16 +3,22 @@ import { GraduationCap } from "lucide-react";
 
 const items = [
   {
-    period: "2021 – Presente",
-    title: "Doble Grado en Derecho y Estudios Internacionales",
-    institution: "Universidad",
-    desc: "Formación interdisciplinar que combina fundamentos jurídicos con análisis político, económico y social a nivel global.",
+    period: "2026 (en curso)",
+    title: "Grado Superior en Inteligencia Artificial y Marketing",
+    institution: "Fedeto y Universidad de Nebrija",
+    desc: "Formación especializada en inteligencia artificial aplicada al marketing digital.",
   },
   {
-    period: "2019 – 2021",
-    title: "Bachillerato",
-    institution: "Instituto",
-    desc: "Bachillerato en Ciencias Sociales con excelentes resultados académicos.",
+    period: "2020 – 2025",
+    title: "Doble Grado en Derecho y Estudios Internacionales",
+    institution: "Universidad de Castilla-La Mancha",
+    desc: "Formación interdisciplinar que combina fundamentos jurídicos con análisis político, económico y social a nivel global. Muy buenas calificaciones.",
+  },
+  {
+    period: "2018 – 2020",
+    title: "Bachillerato en Ciencias Sociales",
+    institution: "IES El Greco, Toledo",
+    desc: "Bachillerato de Ciencias Sociales con una nota final de 9,5.",
   },
 ];
 

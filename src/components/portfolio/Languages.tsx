@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 const langs = [
   { name: "Español", level: "Nativo", flag: "🇪🇸", pct: 100 },
-  { name: "Inglés", level: "Avanzado (C1)", flag: "🇬🇧", pct: 90 },
-  { name: "Italiano", level: "Intermedio-Alto (B2)", flag: "🇮🇹", pct: 75 },
-  { name: "Chino (Mandarín)", level: "Intermedio (B1)", flag: "🇨🇳", pct: 55 },
+  { name: "Inglés", level: "Avanzado (C1 Cambridge)", flag: "🇬🇧", pct: 90 },
+  { name: "Italiano", level: "Básico (A1)", flag: "🇮🇹", pct: 25 },
+  { name: "Chino (Mandarín)", level: "Básico (A1)", flag: "🇨🇳", pct: 25 },
 ];
 
 const Languages = () => (

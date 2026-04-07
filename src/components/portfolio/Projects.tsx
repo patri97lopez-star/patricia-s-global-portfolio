@@ -3,19 +3,19 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Análisis de la política migratoria de la UE",
-    category: "Estudios Internacionales",
-    desc: "Investigación sobre las políticas de asilo y migración en la Unión Europea y su impacto en los derechos fundamentales.",
-  },
-  {
-    title: "Derecho comparado: España e Italia",
+    title: "Elaboración de informes técnicos jurídicos",
     category: "Derecho",
-    desc: "Estudio comparativo de los sistemas jurídicos español e italiano en materia de derecho civil.",
+    desc: "Experiencia en redacción de informes técnicos y documentación jurídica durante las prácticas en bufete de abogados y juzgados.",
   },
   {
-    title: "Traducción jurídica chino-español",
-    category: "Idiomas",
-    desc: "Proyecto de traducción de textos legales del mandarín al español para una ONG de cooperación internacional.",
+    title: "Gestión documental en Juzgados",
+    category: "Administración Judicial",
+    desc: "Gestión de documentos, actas y expedientes judiciales en los Juzgados de Toledo como auxiliar de administración.",
+  },
+  {
+    title: "Formación en IA y Marketing Digital",
+    category: "Tecnología",
+    desc: "Grado Superior en Inteligencia Artificial y Marketing por Fedeto y la Universidad de Nebrija, combinando tecnología con estrategia comercial.",
   },
 ];
 
