@@ -34,8 +34,10 @@ const Hero = () => (
         transition={{ duration: 0.6, delay: 0.35 }}
         className="text-lg md:text-xl text-primary/60 max-w-2xl mx-auto mb-10 leading-relaxed"
       >
-        Estudiante de <strong className="text-primary">Derecho</strong> y{" "}
-        <strong className="text-primary">Estudios Internacionales</strong>. Multilingüe, con visión global y pasión por la justicia.
+        Profesional comprometida y adaptable, con sólidas habilidades en{" "}
+        <strong className="text-primary">Derecho</strong>,{" "}
+        <strong className="text-primary">Estudios Internacionales</strong> e{" "}
+        <strong className="text-primary">Inteligencia Artificial</strong>. Multilingüe, con visión global y pasión por la justicia.
       </motion.p>
 
       <motion.div

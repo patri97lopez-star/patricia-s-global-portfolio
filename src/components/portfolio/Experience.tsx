@@ -3,22 +3,16 @@ import { Briefcase } from "lucide-react";
 
 const items = [
   {
-    period: "2023 – Presente",
-    role: "Prácticas en Departamento Jurídico",
-    company: "Organización internacional",
-    tasks: ["Análisis de normativa internacional", "Redacción de informes jurídicos", "Apoyo en investigación legal"],
+    period: "2024 – 2025",
+    role: "Pasante en Bufete de Abogados",
+    company: "Bufete de Abogados, Madrid",
+    tasks: ["Prácticas en tramitación de actas y documentos judiciales", "Gestión de conflictos jurídicos", "Apoyo en procedimientos legales"],
   },
   {
-    period: "2023",
-    role: "Prácticas en el Juzgado de Toledo",
-    company: "Juzgado de Toledo",
-    tasks: ["Asistencia en procedimientos judiciales", "Estudio de expedientes y resoluciones", "Apoyo en la tramitación de causas"],
-  },
-  {
-    period: "2022 – 2023",
-    role: "Voluntariado en ONG",
-    company: "Organización sin ánimo de lucro",
-    tasks: ["Asistencia legal a personas vulnerables", "Mediación intercultural", "Traducción de documentos"],
+    period: "2023 – 2024",
+    role: "Auxiliar de Administración",
+    company: "Juzgados de Toledo",
+    tasks: ["Gestión de documentos y actas judiciales", "Asistencia en procedimientos judiciales", "Tramitación y archivo de expedientes"],
   },
 ];
 

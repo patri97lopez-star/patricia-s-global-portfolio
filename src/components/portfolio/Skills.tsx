@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const skills = [
-  { name: "Derecho Internacional", level: 90 },
-  { name: "Derechos Humanos", level: 85 },
-  { name: "Investigación Jurídica", level: 88 },
-  { name: "Mediación y Negociación", level: 80 },
-  { name: "Oratoria", level: 82 },
-  { name: "Análisis Político", level: 78 },
+  { name: "Investigación y Redacción Jurídica", level: 90 },
+  { name: "Derecho Internacional", level: 88 },
+  { name: "Resolución de Problemas", level: 85 },
+  { name: "Trabajo en Equipo", level: 90 },
+  { name: "Comunicación y Oratoria", level: 85 },
+  { name: "Adaptabilidad y Trabajo bajo Presión", level: 88 },
 ];
 
 const Skills = () => (
