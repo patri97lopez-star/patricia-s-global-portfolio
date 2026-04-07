@@ -53,10 +53,11 @@ const Hero = () => (
           Contactar
         </a>
         <a
-          href="#about"
+          href="/CV_Patricia_Paniagua.pdf"
+          download
           className="inline-flex items-center justify-center h-12 px-8 rounded-lg border border-glow text-foreground font-medium hover:bg-secondary transition-colors"
         >
-          Conocer más
+          Descargar CV
         </a>
       </motion.div>
 
